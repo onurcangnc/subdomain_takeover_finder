@@ -1,5 +1,7 @@
 # Subdomain Takeover Finder
 
+![run](https://github.com/onurcangnc/subdomain_takeover_finder/blob/main/example.PNG?raw=true)
+
 - This Python tool simplifies the process of discovering and validating subdomains for potential takeover vulnerabilities. It integrates with assetfinder and subzy to automate subdomain enumeration, cleaning, validation, and takeover checks.
 
 ## Features
@@ -61,12 +63,6 @@ The tool will:
 - Use assetfinder to enumerate subdomains and save them to <domain>_raw.txt.
 - Clean and validate subdomains, saving results to <domain>_cleaned.txt.
 - Use subzy to check for subdomain takeover vulnerabilities.
-
-
-## Example Run
-Example run output for `example.com`:
-
-![alt][./example.PNG]
 
 ## Output
 - Raw Subdomains: <domain>_raw.txt
